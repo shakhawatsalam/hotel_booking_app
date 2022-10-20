@@ -1,0 +1,89 @@
+.header{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    display: flex;
+    color: white;
+    justify-content: center;
+    margin: auto;
+}
+.headerContainer{
+    width: 100%;
+    max-width: 1024px;
+    margin: 20px 0px 100px 0px;
+}
+
+.overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(47, 106, 127);
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    mix-blend-mode: hard-light;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.video{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    bottom: 0;
+    object-fit: cover;
+}
+.headerList{
+    position: absolute;
+    display: flex;
+    top: 4rem;
+    gap: 40px;
+    z-index: 111;
+}
+.headerListItem{
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+.headerListItem.active {
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 20px;
+}
+.writing{
+    position: absolute;
+    
+}
+.headerTitle{
+    position: absolute;
+    font-size: 3rem;
+    z-index: 111;
+    margin: 10px;
+    /* border: 1px solid red; */
+    top: 14rem;
+}
+.headerDesc{
+    position: absolute;
+    font-size: 1.25rem;
+    z-index: 111;
+    top: 20rem;
+    /* border: 1px solid red; */
+    margin-left: 10px;
+}
+.headerBtn{
+    position: absolute;
+    bottom: 11rem;
+    margin: 10px;
+    border: none;
+    padding: 8px;
+    border-radius: 40px;
+    color: white;
+    font-weight: 600;
+    z-index: 111;
+    background: var(--gradientColor);
+}
