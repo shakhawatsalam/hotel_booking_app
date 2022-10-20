@@ -1,11 +1,11 @@
 .header{
     width: 100%;
+    /* background-color: #003580; */
     height: 600px;
     position: relative;
     display: flex;
     color: white;
     justify-content: center;
-    margin: auto;
 }
 .headerContainer{
     width: 100%;
@@ -43,6 +43,7 @@
     display: flex;
     top: 4rem;
     gap: 40px;
+    margin-bottom: 100px;
     z-index: 111;
 }
 .headerListItem{
@@ -55,17 +56,16 @@
     padding: 10px;
     border-radius: 20px;
 }
-.writing{
-    position: absolute;
-    
-}
 .headerTitle{
     position: absolute;
     font-size: 3rem;
-    z-index: 111;
-    margin: 10px;
-    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin: 10px; */
     top: 14rem;
+    align-items: center;
+    z-index: 111;
 }
 .headerDesc{
     position: absolute;
@@ -85,5 +85,47 @@
     color: white;
     font-weight: 600;
     z-index: 111;
+    cursor: pointer;
+    background: var(--gradientColor);
+}
+.headerSearch{
+    height: 50px;
+    background-color: white;
+    border: 3px solid skyblue;
+    position: absolute;
+    bottom: -25px;
+    z-index: 111;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 10px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 1024px;
+}
+.headerIcon{
+    color: lightslategray;
+}
+.headerSearchItem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.headerSearchInput{
+    border: none;
+    outline: none;
+}
+.headerSearchText{
+    color: lightgray;
+}
+.SearchBtn{
+    border: none;
+    padding: 10px;
+    width: 100px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    z-index: 111;
+    cursor: pointer;
     background: var(--gradientColor);
 }
