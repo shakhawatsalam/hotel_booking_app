@@ -1,0 +1,50 @@
+.fp{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.fpItem{
+    width: 100%;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    /* flex: 1; */
+    /* border: 1px solid red; */
+}
+.fpImg{
+    overflow: hidden;
+    height: 250px;
+    border-radius: 10px; 
+    /* border: 1px solid blue; */
+}
+.fpImg>img{
+    width: 100%;  
+    height: 250px;
+    object-fit: cover;  
+}
+
+.fpName{
+    font-weight: bold;
+}
+.fpCity{
+    font-weight: 300;
+}
+.fpPrice{
+    font-weight: 500;
+}
+.fpRating>button{
+    background: var(--gradientColor);
+    /* background-color: skyblue; */
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 4px;
+    margin-right: 10px;
+    font-weight: bold;
+
+}
+.fpRating>span{
+    font-size: 14px;
+}
