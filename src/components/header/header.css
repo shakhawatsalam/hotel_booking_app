@@ -14,7 +14,7 @@
 }
 .headerContainer.listMode{
     margin: 0px 0px 0px 0px;
-    height: 300px;
+    height: 200px;
 }
 
 .overlay{
@@ -31,7 +31,7 @@
     justify-content: center;
 }
 .overlay.listMode {
-   height: 300px;
+    height: 200px;
 }
 .video{
     position: absolute;
@@ -45,7 +45,7 @@
     object-fit: cover;
 }
 .video.listMode{
-    height: 300px;
+    height: 200px;
 }
 .headerList{
     position: absolute;
@@ -141,14 +141,16 @@
 }
 .date{
     position: absolute;
-    top: 50px;
+    top: 60px;
+    margin-left: -55px;
 }
 
 .options{
   position: absolute;  
-  top: 50px;
+  top: 60px;
   background-color:white;
   color: gray;
+  margin-left: 45px;
   border-radius: 5px;
   -webkit-box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
   box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
